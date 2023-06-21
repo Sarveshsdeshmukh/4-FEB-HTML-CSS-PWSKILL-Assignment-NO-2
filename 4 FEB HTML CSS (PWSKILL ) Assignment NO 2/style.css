@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Header Section  */
+
+.header{  
+    width: 100vw;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2vw;
+    background-color: #ffffff;
+}
+
+.headerLeft{
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logoImg:hover{
+    cursor: pointer;
+}
+
+.headerList{
+    width: 40vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.headerList a{
+    font-size: 1.5vw;
+    font-weight: 300;
+    text-decoration: none;
+    color: #000000;
+}
+
+.headerList a:hover{
+    color: #66ff00;
+    font-weight: 700;
+}
+
+.headerList a li{
+    list-style: none;
+}
+
+.headerButton button{
+    padding: 1.6vh 4vw;
+    font-size: 1.2vw;
+    border: none;
+    background-color: #5d00fc;
+    font-weight: 400;
+    color: #ffffff;
+    border-radius: 1vh;
+}
+
+.headerButton button:hover{
+    cursor: pointer;
+    color: #000000;
+    font-weight: 600;
+}
+
+/* CSS for the Main section */
+
+.heroSection{
+    display: flex;
+}
+
+.heroSectionLeft{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 46vw;
+    height: 88vh;
+    padding-left: 2vw;
+}
+
+.heroSectionLeftHeading{
+    font-size: 2.8vw;
+    color: #000000;
+    font-weight: 700;
+}
+.heroSectionLeftHeading span{
+    color:#5c007e ;
+}
+
+
+.heroSectionRight{
+    width: 60vw;
+    height: 88vh;
+}
+
+.heroSectionLeftParagraph p{
+    font-size: 1.2vw;
+    color: #636364;
+    margin-top: -4vw;
+}
+
+.heroSectionLeftButton button{
+    padding: 1.6vh 4vw;
+    font-size: 1.2vw;
+    border: none;
+    background-color: #5d00fc;
+    font-weight: 400;
+    color: #ffffff;
+    border-radius: 1vh;
+}
+
+.heroSectionLeftButton button:hover{
+    cursor: pointer;
+    color: #000000;
+    font-weight: 600;
+}
+
+.heroSectionRightImg img{
+    width: 54vw;
+    height: 84vh;
+}
